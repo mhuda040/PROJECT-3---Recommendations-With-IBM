@@ -14388,6 +14388,7 @@ Your top_20 looks like the solution list! Nice job.
     
     <span class="c1"># sort by similarity</span>
     <span class="n">similarity</span> <span class="o">=</span> <span class="n">similarity</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    
     <span class="c1"># create list of just the ids and # remove the own user&#39;s id</span>
     <span class="n">most_similar_users</span> <span class="o">=</span> <span class="n">similarity</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
     
@@ -14579,16 +14580,16 @@ The 3 most similar users to user 46 are: [4201, 3782, 23]
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&#39;apache spark lab, part 3: machine learning&#39;,
- &#39;graph-based machine learning&#39;,
- &#39;use r dataframes &amp; ibm watson natural language understanding&#39;,
- &#39;experience iot with coursera&#39;,
+<pre>[&#39;insights from new york car accident reports&#39;,
+ &#39;pixieapp for outlier detection&#39;,
+ &#39;model bike sharing data with spss&#39;,
+ &#39;working interactively with rstudio and notebooks in dsx&#39;,
  &#39;real-time sentiment analysis of twitter hashtags with spark (+ pixiedust)&#39;,
  &#39;practical tutorial on random forest and parameter tuning in r&#39;,
- &#39;how to write the first for loop in r&#39;,
- &#39;a dynamic duo – inside machine learning – medium&#39;,
+ &#39;spark 2.1 and job monitoring available in dsx&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;a classification problem&#39;]</pre>
+ &#39;data visualization: the importance of excluding unnecessary details&#39;,
+ &#39;country statistics: airports&#39;]</pre>
 </div>
 
 </div>
@@ -15672,7 +15673,7 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>As the number of latent features increased, the accuracy decreased.  This is due to the sample size of the test set (approx. 20 users); since this sample size is not enough, we can't make any general conclusions or predictions on our recommendations.</p>
+<p>As the number of latent features increases, the accuracy decreases.  This is due to the sample size of the test set (approx. 20 users); since this sample size is not enough, we can't make any general conclusions or predictions on our recommendations.</p>
 <p>We should consider a number of latent features around the range of 100 to 200 to use for SVD in our recommendation model.  We can use A/B testing to test how well our recommendation algorithm works to engage users:  One group would use the  recommendations generated from the algorithm, the other would use a second algorithm based on random recommendations.  If the generated recommendations produce a higher number of interactions, then our first algorithm works and generated recommendations would be preferred over random recommendations.</p>
 
 </div>
