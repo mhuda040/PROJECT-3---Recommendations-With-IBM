@@ -17,9 +17,9 @@ This project will analyze user interactions with articles on the IBM Watson Comm
 
 ## Installation
 
-Must have Python 3 installed to run the required files and execute the commands at the command prompts.
+Must have Python 3 installed to run the required files.
 
-Must include the following libraries in the Jupyter Notebook files and Python scripts:
+Must include the following libraries in the Recommendations_with_IBM.ipynb file:
 - numpy
 - pandas
 - matplotlib
