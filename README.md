@@ -30,6 +30,6 @@ Must include the following libraries in the Recommendations_with_IBM.ipynb file:
 
 Run the Recommendations_with_IBM.ipynb file 
 
-## Acknowledgements:
+## Acknowledgements
 
 This project was prepared as part of the Udacity Data Scientist nanodegree program.  Special thanks to IBM for providing the required files for the recommendation engine.  Additional thanks to Udacity for providing the template code for the Jupyter Notebook.
