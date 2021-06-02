@@ -10,10 +10,10 @@ This project will analyze user interactions with articles on the IBM Watson Comm
   - `Recommendations_with_IBM.ipynb`:  Main file that contains the necessary code to build our recommendation engine 
 
 - HTML files
-  - 'Recommendations_with_IBM.html':  HTML version of main Jupyter Notebook file
+  - `Recommendations_with_IBM.html`:  HTML version of main Jupyter Notebook file
 
 - Additional files
-  - project_tests.py, top_20.p, top_10.p, top_5.p:  These files are standard for this project and required for the recommendation engine.  The code in these files should not be modified in any way
+  - `project_tests.py, top_20.p, top_10.p, top_5.p`:  These files are standard for this project and required for the recommendation engine.  The code in these files should not be modified in any way
 
 ## ACKNOWLEDGEMENTS:
 
