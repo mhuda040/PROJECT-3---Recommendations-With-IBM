@@ -1,10 +1,10 @@
 # PROJECT-3---Recommendations-With-IBM
 
-## PROJECT OVERVIEW
+## Project Overview
 
 This project will analyze user interactions with articles on the IBM Watson Community and make recommendations of new articles that cater to those users.  We will create and build a recommendation system to faciliate those interactions between users and articles.
 
-## REQUIRED FILES
+## Required Files
 
 - Jupyter Notebook
   - `Recommendations_with_IBM.ipynb`:  Main file that contains the necessary code to build our recommendation engine 
@@ -15,6 +15,21 @@ This project will analyze user interactions with articles on the IBM Watson Comm
 - Additional files
   - `project_tests.py, top_20.p, top_10.p, top_5.p`:  These files are standard for this project and required for the recommendation engine.  The code in these files should not be modified in any way
 
-## ACKNOWLEDGEMENTS:
+## Installation
 
-This project was prepared as part of the Udacity Data Scientist nanodegree program.
+Must have Python 3 installed to run the required files and execute the commands at the command prompts.
+
+Must include the following libraries in the Jupyter Notebook files and Python scripts:
+- numpy
+- pandas
+- matplotlib
+- project_tests
+- pickle
+
+## Instructions
+
+Run the Recommendations_with_IBM.ipynb file 
+
+## Acknowledgements:
+
+This project was prepared as part of the Udacity Data Scientist nanodegree program.  Special thanks to IBM for providing the required files for the recommendation engine.  Additional thanks to Udacity for providing the template code for the Jupyter Notebook.
